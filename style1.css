@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    background-color:#DDE4F7 ;
+    width: 100%;
+    padding: 2px 8px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* z-index: 100; */
+    position: fixed;
+    z-index: 100000;
+}
+
+.logo{
+    /* font-size: 2em; */
+    pointer-events: none;
+    margin-left: 57px;
+    height: 55px;
+    margin-top: -10px;
+    z-index: 666;
+    
+}
+.navigation{
+    margin-right: 114px;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: #1e2826;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    
+}
+
+.navigation a:hover, 
+.navigation a.active{
+    background:#04619F ;
+    color: #DDE4F7;
+    
+}
+.content{
+    position: fixed;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 10000;
+}
+.content img{
+    position: absolute;
+    margin-top: 45px;
+    width: 100vw;
+    z-index: 556;
+    height: 80px;
+
+}
+
+.containter{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 750px;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+
+.parallax_left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    /* align-items: start; */
+    height: 100vh;
+    width: 50%;
+
+}
+.options{
+    display: flex;
+}
+
+.sub a{
+    text-decoration: none;
+    
+}
+.parallax_right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+
+}
+
+
+#text{
+    position: relative;
+    margin-left: 55px;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.2);
+
+}
+
+.options{
+    /* background-color: aqua; */
+    margin-left: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 200px;
+    width: 500px;
+}
+
+.sub1{
+    position: absolute;
+    margin: 80px 58px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 185px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+    
+    
+}
+.sub1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.sub1:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+.sub2{
+    position: absolute;
+    margin: 80px 252px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 185px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+}
+.sub2 a{
+    color: white;
+    text-decoration: none;
+}
+.sub2:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+
+.sub3{
+    position: absolute;
+    margin: 13px 369px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+}
+.sub3 a{
+    color: white;
+    text-decoration: none;
+}
+.sub3:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+
+.sub4{
+    position: absolute;
+    margin: 13px 184px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+}
+.sub4 a{
+    color: white;
+    text-decoration: none;
+}
+.sub4:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+
+.sub5{
+    position: absolute;
+    margin: 13px 0px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+}
+.sub5 a{
+    color: white;
+    text-decoration: none;
+}
+.sub5:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+
+.sub6{
+    position: absolute;
+    margin: 148px 155px;
+    padding-top: 7px;
+    text-align: center;
+    height: 40px;
+    width: 170px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+}
+.sub6 a{
+    color: white;
+    text-decoration: none;
+}
+.sub6:hover{
+    background:#04619F ;
+    transition: all 0.2s ease-in;
+}
+
+.examples{
+    margin-left: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 200px;
+    width: 500px;
+}
+
+.card1{
+    position: absolute;
+    margin: -100px 5px;
+    padding-top: 7px;
+    text-align: center;
+    height: 400px;
+    width:300px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.474),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+    /* transform: origin 0;;
+    transition: rotatey(30deg); */
+    transition: all 0.01s;
+    transform: skew(0deg, 2deg);
+    
+}
+.card1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.card1:hover{
+    transition: all 0.3s;
+    transform: scale(1.04);
+}
+.card2{
+    position: absolute;
+    margin: -60px 110px;
+    padding-top: 7px;
+    text-align: center;
+    height: 400px;
+    width:300px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.474),rgba(195, 116, 116, 0)) ;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+    z-index: 66;
+    transition: all 0.01s;
+    transform: skew(0deg, 2deg);
+    /* transform: matrix(1, 1, 1, 0.1, 1,1) */
+    
+}
+.card2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.card2:hover{
+    transition: all 0.3s;
+    transform: scale(1.04);
+}
+.card3{
+    position: absolute;
+    margin: -100px 200px;
+    padding-top: 7px;
+    text-align: center;
+    height: 400px;
+    width:300px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.474),rgba(255,255,255,0)) ;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 0 rgba(0,0,0,0.37);
+    transition: all 0.01s;
+    transform: skew(0deg, 2deg);
+    
+}
+.card3 a{
+    color: #fff;
+    text-decoration: none;
+}
+.card3:hover{
+    transition: all 0.3s;
+    transform: scale(1.04);
+}
+
+.containter_2{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 750px;
+    background-color: #000000;
+    background-image: linear-gradient(-327deg,  #000000 0%,#04619f 74%);
+}
+
+.content_2{
+    position: sticky;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    z-index: 234;
+}
+.content_2 img{
+    position: absolute;
+    /* display: none; */
+    width: 100vw;
+    z-index: 556;
+    height: 100px;
+    /* opacity: 0; */
+
+}
