@@ -7,6 +7,15 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99999999;
+    border-radius: 50%;
+}
 header{
     background-color:#DDE4F7 ;
     width: 100vw;

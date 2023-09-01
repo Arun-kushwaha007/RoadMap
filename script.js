@@ -1,3 +1,12 @@
+// for the mouse cursor follower
+
+function circleMouseFollower(){
+    window.addEventListener("mousemove", function(dets){
+        document.querySelector('#minicircle').style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)` ;
+    })
+}
+circleMouseFollower();
+
 let sections = document.querySelectorAll('section');
 let navLink = document.querySelectorAll('header nav a');
 
@@ -15,4 +24,13 @@ window.onscroll = ()=>{
         };
     });
 };
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
+
+
+
 
